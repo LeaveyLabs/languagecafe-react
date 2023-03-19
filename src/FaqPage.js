@@ -17,10 +17,10 @@ function FaqPage() {
       </div>
 
       <header className="App-footer">
-        <Link  to={{pathname: '/'}}>home</Link>
-        <Link  to={{pathname: '/terms'}}>terms</Link>
-        <Link  to={{pathname: '/privacy'}}>privacy</Link>
-        <a href="mailto:leaveylabs@gmail.com" target="_blank" rel="noopener noreferrer" >contact</a>
+        <Link  to={{pathname: '/'}}>Home</Link>
+        <Link  to={{pathname: '/terms'}}>Terms</Link>
+        <Link  to={{pathname: '/privacy'}}>Privacy</Link>
+        <a href="mailto:leaveylabs@gmail.com" target="_blank" rel="noopener noreferrer" >Contact</a>
       </header>
   </div>
   );

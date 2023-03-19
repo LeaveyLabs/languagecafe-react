@@ -17,10 +17,10 @@ function TermsPage() {
     </div>
 
     <header className="App-footer">
-      <Link  to={{pathname: '/'}}>home</Link>
-      <Link  to={{pathname: '/faq'}}>faq</Link>
-      <Link  to={{pathname: '/privacy'}}>privacy</Link>
-      <a href="mailto:leaveylabs@gmail.com" target="_blank" rel="noopener noreferrer" >contact</a>
+      <Link  to={{pathname: '/'}}>Home</Link>
+      <Link  to={{pathname: '/faq'}}>Faq</Link>
+      <Link  to={{pathname: '/privacy'}}>Privacy</Link>
+      <a href="mailto:leaveylabs@gmail.com" target="_blank" rel="noopener noreferrer" >Contact</a>
     </header>
   </div>
   );

@@ -1,6 +1,5 @@
 import appstorebutton from './download-on-appstore-borderless.png';
-import logo from './pixelheart-white-filled.png';
-import newlogo from './peoplendots.png'
+import logo from './cup.and.saucer.png';
 import './App.css';
 import { Link } from "react-router-dom";
 
@@ -11,32 +10,26 @@ function LandingPage() {
         <h4></h4>        <h4></h4>
         <h4></h4>
 
-        <img src={newlogo} alt="people n dots" className='App-logo'/>
+        <img src={logo} alt="people n dots" className='App-logo'/>
         <h2>
           Language Cafe
         </h2>
+        <h2/>
         <h6>
-          spontaneous connections
+          Speak any language with your very own AI language partner.
         </h6>
 
         <h4></h4>
-        <Link to="/jointheclub">
+        <Link to="/download">
           <img src={appstorebutton} alt="appstorebutton" className='App-store-button' />
         </Link>
-        {/* <a
-          href="https://apps.apple.com/app/apple-store/id1668220280"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src={appstorebutton} alt="appstorebutton" className='App-store-button' />
-        </a> */}
       </header>
 
       <header className="App-footer">
-        <Link  to={{pathname: '/faq'}}>faq</Link>
-        <Link  to={{pathname: '/terms'}}>terms</Link>
-        <Link  to={{pathname: '/privacy'}}>privacy</Link>
-        <a href="mailto:leaveylabs@gmail.com" target="_blank" rel="noopener noreferrer" >contact</a>
+        <Link  to={{pathname: '/faq'}}>FAQ</Link>
+        <Link  to={{pathname: '/terms'}}>Terms</Link>
+        <Link  to={{pathname: '/privacy'}}>Privacy</Link>
+        <a href="mailto:leaveylabs@gmail.com" target="_blank" rel="noopener noreferrer" >Contact</a>
       </header>
     </div>
   );
