@@ -1,4 +1,5 @@
 import appstorebutton from './download-on-appstore-borderless.png';
+import qrcode from './qrcode.png';
 import logo from './cup.and.saucer.png';
 import './App.css';
 import { Link } from "react-router-dom";
@@ -20,9 +21,12 @@ function LandingPage() {
         </h6>
 
         <h4></h4>
-        <Link to="/download">
-          <img src={appstorebutton} alt="appstorebutton" className='App-store-button' />
-        </Link>
+        <div className='linkcontainer'>
+          <img src={qrcode} alt="qrcode" className='qrcode' />
+          <Link to="/download">
+            <img src={appstorebutton} alt="appstorebutton" className='App-store-button' />
+          </Link>
+        </div>
       </header>
 
       <header className="App-footer">
